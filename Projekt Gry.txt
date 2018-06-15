@@ -1,0 +1,48 @@
+Gra typu RPG —> Praca zaliczeniowa
+Temat - Gra z widokiem TOP-DOWN z elementami RPG
+
+OPIS ELEMENTÓW GRY:
+Bohater:
+-Potrafi chodzić, strzelać.
+-Animacja ruchu i gdy pozostaje w spoczynku.
+-Dźwięk podczas strzelania i chodzenia.
+-Posiada HP.
+-Za zabicie wroga zbiera monety.
+
+Wróg:
+-Potrafi chodzić.
+-3 rodzaje wrogów
+-ściga gracz
+-Podczas kolizji z graczem zadaje mu obrażenia.
+-Posiada HP.
+-Gdy zginie „wyrzuca” z siebie monety.
+-Dźwięk podczas poruszania.
+-Sklep
+-Można tutaj kupić zaopatrzenie (różne różdżki, większy damage).
+
+Muzyka:
+-Ciągle odtwarzana muzyka w tle (odpowiednio do danej lokacji).
+-Dźwięki strzałów.
+-Dźwięki chodzenia.
+-Dźwięki kolizji
+
+Lokacje:
+-4 lokacje.
+-Wraz z dotarciem do kolejnych lokacji będą trafiać się trudniejsi przeciwnicy.
+
+
+
+SILNIK
+-Generuje animacje poruszania się wszystkich postaci, niszczonych obiektów oraz lecących pocisków  
+
+-Liczy w czasie rzeczywistym odległość wroga od gracza, dzięki czemu jest możliwość wydawania dźwięków przez wrogów gdy są odpowiednio blisko oraz zmiany ich zachowania
+
+-W silniku został zaimplementowany algorytm prostej sztucznej inteligencji, dzięki której zachowanie wrogów względem gracza w danej chwili jest odpowiednio sterowane.
+
+-Po zaatakowaniu wroga, przechodzi on w tryb „agresywny”, gdzie ściga gracza lub, odpowiednio od rodzaju wroga, ściga i strzela w gracza.
+
+-Silnik posiada zaimplementowanych wiele rodzajów  kolizji gracza oraz obiektów dynamicznych względem innych obiektów statycznych.
+
+-Wszelkie postępy gracza (EQ, życie, monety) zapisywane są do pliku tekstowego i aktualizowane z każdą zmianą poziomu lub rozpoczęciem gry od nowa.
+
+-Wrogowie odradzają się po powrocie do tej samej lokacji(jeszcze niedopracowane).

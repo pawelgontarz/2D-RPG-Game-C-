@@ -1,0 +1,7 @@
+PLAYER COORD X
+PLAYER COORD Y
+PLAYER HP
+PLAYER GOLD
+PLAYER WEAPON  (0 -> Ogniki, 1 -> Lodowa Zamiec  , 2 -> Poskramiacz    , 3 -> Ognisty Jezyk  , 4 ->  Gwiezdna Rozdzczka ) 
+PLAYER ATTACK DAMAGE
+PLAYER MOVEMENT SPEED
